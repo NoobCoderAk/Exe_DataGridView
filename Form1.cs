@@ -15,6 +15,8 @@ namespace Exe_DataGridView
         public Form1()
         {
             InitializeComponent();
+
+            //memanggil method styling winform
             StyleDataGridView();
         }
 
@@ -36,7 +38,15 @@ namespace Exe_DataGridView
             dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.SeaGreen;
             dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Red;
 
-            
+            //mengset warna background pada masing-masing kolom
+            dataGridView1.Columns[0].DefaultCellStyle.SelectionBackColor = Color.Pink;
+            dataGridView1.Columns[1].DefaultCellStyle.SelectionBackColor = Color.Orange;
+            dataGridView1.Columns[2].DefaultCellStyle.SelectionBackColor = Color.Green;
+            dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.Blue;
+            dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.Maroon;
+
+
+
         }
     }
 }

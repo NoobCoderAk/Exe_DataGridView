@@ -48,8 +48,8 @@ namespace Exe_DataGridView
             //mengset deafault warna text saat cursor di arahkan ke text
             dataGridView1.DefaultCellStyle.SelectionForeColor = Color.White;
 
-            
-
+            //mengset align pada colom sex
+            dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
         }
     }

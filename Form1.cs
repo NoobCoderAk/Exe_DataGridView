@@ -51,6 +51,9 @@ namespace Exe_DataGridView
             //mengset align pada colom sex
             dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
+
+            //mengset textstyle header menjadi bold
+            dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(DataGridView.DefaultFont, FontStyle.Bold);
         }
     }
 }

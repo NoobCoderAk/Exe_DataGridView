@@ -29,7 +29,14 @@ namespace Exe_DataGridView
 
         void StyleDataGridView()
         {
+            //mengset text pada masing-masing kolom
+            dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Violet;
+            dataGridView1.Columns[1].DefaultCellStyle.ForeColor = Color.Blue;
+            dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.Green;
+            dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.SeaGreen;
+            dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Red;
 
+            
         }
     }
 }

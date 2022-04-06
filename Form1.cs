@@ -54,6 +54,9 @@ namespace Exe_DataGridView
 
             //mengset textstyle header menjadi bold
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(DataGridView.DefaultFont, FontStyle.Bold);
+
+            //bakground 
+            BackColor = Color.Black;
         }
     }
 }
